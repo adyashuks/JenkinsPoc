@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Jenkins Demo Controller!";
+		return "Greetings from Jenkins Demo!";
 	}
 }
